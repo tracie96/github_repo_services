@@ -45,6 +45,9 @@ To run the unit tests, use:
  npm test
  ```
 
+## Error Handling
+I designed the service to handle errors properly. Any errors encountered during API calls or database interactions are logged and propagated to ensure proper handling.
+
 ## Functions
 
 - fetchCommits(owner: string, repo: string, since: string): Promise<Commit[]> : Fetches commits from GitHub for a specified repository since a given date.
